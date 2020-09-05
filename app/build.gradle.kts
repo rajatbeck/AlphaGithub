@@ -29,6 +29,8 @@ dependencies {
     implementation(Dependencies.Kotlin.kotlin_std)
     implementation(Dependencies.SupportLibs.appcompat)
     implementation(Dependencies.SupportLibs.constraint_layout)
+    implementation(Dependencies.CoroutineLibs.coroutine_core)
+    implementation(Dependencies.CoroutineLibs.coroutine_android)
     testImplementation(Dependencies.TestLibs.junit)
     androidTestImplementation(Dependencies.TestLibs.runner)
     androidTestImplementation(Dependencies.TestLibs.espresso)

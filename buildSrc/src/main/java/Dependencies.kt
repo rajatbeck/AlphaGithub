@@ -11,6 +11,10 @@ private const val junitVersion = "4.12"
 private const val runnerVersion = "1.1.2"
 private const val espressoVersion = "3.3.0"
 
+//coroutines
+private const val coroutinesCoreVersion = "1.3.9"
+private const val coroutineAndroidVersion = "1.3.9"
+
 object Dependencies{
     object Android {
         val minSdkVersion = 19
@@ -37,5 +41,9 @@ object Dependencies{
         val junit = "junit:junit:$junitVersion"
         val espresso = "androidx.test.espresso:espresso-core:$espressoVersion"
         val runner = "androidx.test:runner:$runnerVersion"
+    }
+    object CoroutineLibs{
+        val coroutine_core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesCoreVersion"
+        val coroutine_android =  "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutineAndroidVersion"
     }
 }
